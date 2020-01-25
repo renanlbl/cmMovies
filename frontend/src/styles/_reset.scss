@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Metrophobic', sans-serif;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .container {
+        min-height: 100vh;
+    }
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
